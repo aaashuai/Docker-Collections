@@ -1,5 +1,6 @@
 jupyterlab
 jupyterlab_vim
+jupyterlab-vimrc
 icecream>=2.1.0
 aiohttp>=3.6.2
 amqp>=2.6.1

@@ -6,6 +6,7 @@ services:
       - "8888:8888"
     volumes:
       - ./data:/notebooks
+      - ./jupyter-lab.vimrc:/root/.jupyter/lab/user-settings/jupyterlab-vimrc/vimrc.jupyterlab-settings
     environment:
       JUPYTER_ENABLE_LAB: "yes"
 
