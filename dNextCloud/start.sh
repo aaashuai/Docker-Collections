@@ -2,7 +2,6 @@
 
 docker run -d -p 10024:80 \
     --name nextCloud \
-    -v /home/ubuntu/media/nextcloud:/var/www/html \
-    -v /home/ubuntu/media/data:/data \
-    --net nas_network \
+    -v $(pwd)/html:/var/www/html \
+    -v $(pwd)/data:/data \
     nextcloud

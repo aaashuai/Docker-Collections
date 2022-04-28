@@ -1,3 +1,6 @@
 */data
 */db
 */*.rdb
+*.vmwarevm
+.DS_Store
+dNextCloud/html
